@@ -6,15 +6,14 @@
  let day = prompt("Enter day  :");
  let month = prompt("Enter month  :");
 
- if ( ( month >= 3 && day >= 20 )  && ( month <= 6 && day <= 20 )  && ( day < 31 ) )
- {
-     console.log("True");
-
- }
- else
- {
-     console.log("False");
- }
+ if ((day<=20 && month<=6) && (day>=20 && month>=3) && (day<=31))
+{
+    console.log("True");
+}
+else
+{
+    console.log("False");
+}
 
 
  
